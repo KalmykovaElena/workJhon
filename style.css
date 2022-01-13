@@ -1,0 +1,139 @@
+.wrap{
+    max-width: 1152px;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    font-size: 16px;
+    }
+.navigation{
+    position: absolute;
+    top:27px;
+    right: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 227px;
+    padding: 0;
+}
+.navigation li{
+    list-style-type: none;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    font-weight:500;
+}
+.navigation li a:hover{
+    color: red;
+}
+details{
+    display: none;
+}
+main{
+    max-width: 681px;
+    margin:160px auto 53px;
+}
+h1{
+    font-size: 44px;
+    margin-top: 160px;
+}
+.content{
+    display: flex;
+}
+.content img{
+    margin-right: 18px;
+}
+.tecnicalInfo{
+    display: flex;
+}
+.date{
+    color:white;
+    background: #142850;
+    border-radius: 30%;
+    width:62px;
+    text-align: center;
+    font-weight: 900;
+    margin-right: 26px;
+}
+.textinfo{
+    font-size: 20px;
+    color:#8695A4;
+    margin-top: -5px;
+}
+.contentText{
+    margin-top: 19px;
+}
+.line{
+    width: auto;
+    border-bottom:1px solid #E0E0E0;
+    margin-top: 37px;
+    margin-bottom: 45px;
+}
+footer{
+    width: auto;
+    height:182px;
+}
+.icons{
+    width: 232px;
+    margin: 51px auto 26px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phoneVersion{
+    display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navigation{
+        display: none;
+    }
+        details{
+        display: block;   
+        position: absolute;
+        right:18px;
+        top:18px;
+    }
+    summary{
+        list-style-type: none;
+        text-align: right;
+        font-size: 2em;
+        font-stretch:extra-expanded;
+    }
+    .navigationPhone li{
+        list-style-type: none;
+       
+    }
+    .navigationPhone a{
+        text-decoration: none;
+        color: black;
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 74px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    main{
+        max-width: 375px;
+    }
+    .content{
+        display: block;
+    }
+    .content img{
+        width: 339px;
+    }
+    .line{
+        margin-bottom: 22px;
+    }
+ .nophone{
+     display: none;
+ }
+ .phoneVersion{
+     display: block;
+ }
+
+}
