@@ -1,0 +1,326 @@
+
+.wrapper{
+    max-width:1152px;
+    margin: 0 auto;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+header{
+    
+}
+.navigation{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    }
+.navigation li{
+    height: 43px;
+   
+}
+.navigation>li:first-child{
+    width:57px;
+    position: relative;
+    right:239px;
+}
+.navigation>li:nth-child(2){
+    width:106px;
+    text-align: right;
+    position: relative;
+    right:164px; 
+}
+.navigation>li:last-child{
+    width: 71px;
+    position: relative;
+    right:60px;
+}
+.navigation a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: black;
+}
+summary{
+    display:none;
+}
+details{
+    display: none;
+}
+.introduceText h1{
+    font-size: 44px;
+    max-width: 506px;
+    margin-right: 106px;
+    font-weight: 700;
+}
+.introduceText p{
+    max-width:497px;
+    margin-top: 40px;
+    
+}
+.introduce{
+    margin-top: 158px;
+    display: flex;
+    justify-content: center;
+}
+.wrapPosts{
+    height: 396px;
+    background: #EDF7FA;
+    margin-top: 142px;
+    
+}
+.postsContent{
+    margin:0 auto;
+    width: 856px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.postContentNavigation{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.recentPost{
+    text-decoration: none;
+    font-size: 22px;
+    color:#21243D;
+    width: 129px;
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+.postContentNavigation a:last-child{
+    color:#00A8CC;
+    margin-top: 27px;
+    text-decoration: none;
+   }
+.postsContentText{
+    width: 418px;
+    height: 295px;
+    background: white;
+}
+.postsContentText h1{
+    margin-left: 23px;
+    Font-size: 26px;
+}
+.postsContentInform{
+    display:flex;
+    height: 34px;
+    margin-left: 23px;
+    font-size: 18px;
+}
+.postsContentInform div:first-child{
+    width: 130px;
+}
+.postsContentInform div:last-child{
+    margin-left: 26px;
+}
+.line{
+    height:21px;
+    border-left: 1px solid black;
+}
+.mainText{
+    max-width: 368px;
+    line-height: 24px ;
+    margin-left: 23px;
+    margin-top: 11px;
+}
+.redLine{
+    width: 208px;
+    border-bottom: 2px solid #FF6464;
+    margin-left: 106px;
+  
+}
+.featuredWorks{
+    max-width: 858px;
+    margin: 0 auto;
+}
+.tableFoPresent h2{
+    font-size: 30px;
+    margin: 0;
+}
+.dateWork{
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 43%;
+    text-align: center;
+    margin-right: 26px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+.workItem{
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    height: 246px;
+    align-items: center;
+}
+.workImage{
+    margin-right: 18px;
+}
+.namework{
+    font-size: 20px;
+    color: #8695A4;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+.aboutWork{
+    display: flex;
+}
+.nameOfTable{
+    width: 152px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 15px;
+}
+footer{
+    height: 182px;
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+.footerIcons{
+    width: 232px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footerText{
+    max-width: 232px;
+    margin: 0 auto;
+    font-size: 14px; 
+}
+button{
+    display: block;
+    width: 208px;
+    height:47px;
+    background: #FF6464;
+    color:white;
+    
+}
+.wrapButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.nextPage{
+    background-color: #8695A4;
+    opacity: 0.5;
+    width: 75px;
+    height: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    button{
+        
+        margin: 27px auto 59px;
+    }
+    .wrapper{
+        width:375px;
+        text-align: center;
+    }
+    .introduce{
+        flex-direction: column-reverse;
+    }
+    .introduceText h1{
+        text-align: center;
+        margin: 0;
+    }
+    .introduceText p{
+        margin: 24px;
+    }
+    
+    .wrapPosts {
+        margin-top: 59px;
+        height: 647px;
+        
+    }
+    .navigation{
+        display: none;
+    }
+    .postsContent{
+        width:354px;
+        height: 266px;
+        margin: 0;
+        display: block;
+    }
+    .postContentNavigation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .workItem.second{
+        display: none;
+    }
+    .workItem.third{
+        display: none;
+    }
+    .workItem{
+        display: block;
+    }
+    .introduce {
+        margin-top: 33px;
+    }
+    .postsContentText{
+        width: 354px;
+        height: 256px;
+        text-align: left;
+        margin-left: 11px;
+    }
+    .postContentView{
+            display: none;
+    }
+    .featuredWorks{
+        height: 579px;
+    }
+    .redLine{
+        display:none;
+    }
+    .nameOfTable{
+        margin: 0 auto;
+    }
+    .workImage img{
+       height: 230px;
+        width:339px;
+    }
+    .workImage{
+        margin: 0;
+    }
+    .workItem{
+        border:none;
+    }
+    .describeWorc{
+text-align: left;
+    }
+    details{
+        display:block;
+        position: absolute;
+        right:20px;
+    }
+
+    summary{
+        display: block;
+        list-style-type: none;
+        position:relative;
+        font-size: 3em;
+        text-align: right;
+    }
+    .navigationPhone{
+        list-style-type: none;
+        text-align: left;        
+    }
+    .navigationPhone a {
+        text-decoration: none;
+    }
+}

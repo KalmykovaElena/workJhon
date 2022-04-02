@@ -1,0 +1,122 @@
+.wrap{
+    max-width: 1152px;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    font-size: 16px;
+    margin: 0 auto;
+    }
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 227px;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation li{
+    list-style-type: none;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    font-weight:500;
+}
+.navigation li a:hover{
+    color: red;
+}
+details{
+    display: none;
+}
+main{
+    max-width: 681px;
+    margin:auto;
+    }
+    h1{
+        font-size: 34px;
+        margin-top: 148px;
+        max-width: 506px;
+    }
+    .tecnicalInfo{
+        display: flex;
+    }
+    .date{
+        color:white;
+        background: #FF7C7C;
+        border-radius: 30%;
+        width:62px;
+        text-align: center;
+        font-weight: 900;
+        margin-right: 17px;
+    }
+    .textinfo{
+        font-size: 20px;
+       
+        margin-top: -5px;
+    }
+    img{
+        display:block;
+        max-width:100%;
+    }
+    footer{
+        max-width: 100%;
+        height:182px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons{
+        width: 232px;
+        margin: 51px auto 26px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapButton{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+    }
+    .nextPage{
+        background-color: #8695A4;
+        opacity: 0.5;
+        width: 75px;
+    }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navigation{
+        display: none;
+    }
+        details{
+        display: block;   
+        position: absolute;
+        right:18px;
+        top:18px;
+    }
+    summary{
+        list-style-type: none;
+        text-align: right;
+        font-size: 2em;
+        font-stretch:extra-expanded;
+    }
+    .navigationPhone li{
+        list-style-type: none;
+       
+    }
+    .navigationPhone a{
+        text-decoration: none;
+        color: black;
+    }
+    main{
+        max-width: 339px;
+       
+    }
+    h1{
+        margin-top: 82px;
+        font-size: 30px;
+    }
+    .date{
+        max-height:25px;
+    }
+}

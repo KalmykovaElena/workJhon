@@ -3,15 +3,18 @@
     font-family: 'Heebo', sans-serif;
     color: black;
     font-size: 16px;
+    margin: 0 auto;
     }
 .navigation{
-    position: absolute;
-    top:27px;
-    right: 60px;
+    
     display: flex;
     justify-content: space-between;
     width: 227px;
     padding: 0;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
 }
 .navigation li{
     list-style-type: none;
@@ -34,39 +37,34 @@ main{
 }
 h1{
     font-size: 44px;
-    margin-top: 160px;
+    margin-bottom: 55px;
 }
 .content{
+    margin-top: 32px;
+}
+h2{
+    font-size: 30px;
+    margin-top:0;
+    margin-bottom: 16px;
+}
+.tecnicInform{
+    width: 374px;
+    height: 25px;
     display: flex;
-}
-.content img{
-    margin-right: 18px;
-}
-.tecnicalInfo{
-    display: flex;
-}
-.date{
-    color:white;
-    background: #142850;
-    border-radius: 30%;
-    width:62px;
-    text-align: center;
-    font-weight: 900;
-    margin-right: 26px;
-}
-.textinfo{
     font-size: 20px;
-    color:#8695A4;
-    margin-top: -5px;
 }
-.contentText{
-    margin-top: 19px;
+.column1{
+    width:136px;
+    border-right: 1px solid #000000;
+}
+.column2{
+    width:238px;
+    color:#8695A4;
+    padding-left: 20px;
 }
 .line{
     width: auto;
     border-bottom:1px solid #E0E0E0;
-    margin-top: 37px;
-    margin-bottom: 45px;
 }
 footer{
     width: auto;
@@ -83,8 +81,15 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-.phoneVersion{
-    display: none;
+.wrapButton{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.nextPage{
+    background-color: #8695A4;
+    opacity: 0.5;
+    width: 75px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .navigation{
@@ -112,28 +117,15 @@ footer{
     }
     h1{
         font-size: 30px;
-        margin-top: 74px;
+        position: absolute;
+        top:74px;
     }
     h2{
         font-size: 26px;
     }
-    main{
-        max-width: 375px;
+    
+    .tecnicInform{
+        font-size: 16px;
     }
-    .content{
-        display: block;
-    }
-    .content img{
-        width: 339px;
-    }
-    .line{
-        margin-bottom: 22px;
-    }
- .nophone{
-     display: none;
- }
- .phoneVersion{
-     display: block;
- }
 
 }
